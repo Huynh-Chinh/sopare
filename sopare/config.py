@@ -17,7 +17,7 @@ License for the specific language governing permissions and limitations
 under the License.
 """
 
-import ConfigParser
+import configparser as ConfigParser
 
 class config():
 

@@ -50,7 +50,7 @@ class worker(multiprocessing.Process):
         self.character = [ ]
         self.raw_character = [ ]
         self.uid = str(uuid.uuid4())
-        self.start()
+        # self.start()
 
     def reset(self):
         self.counter = 0
